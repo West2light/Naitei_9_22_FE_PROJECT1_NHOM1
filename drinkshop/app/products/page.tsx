@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import BreadcrumbComponent from "@/components/breadcrumb/BreadcrumbComponent";
-import FilterSidebar from "@/components/FilterSidebar";
-import ProductGrid from "@/components/ProductGrid";
+import FilterSidebar from "@/components/products/FilterSidebar";
+import ProductGrid from "@/components/products/ProductGrid";
 
 interface Product {
     id: number;
